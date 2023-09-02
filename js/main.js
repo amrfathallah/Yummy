@@ -411,7 +411,7 @@ $('.Contact-Us').on("click" , function(){
     </div>
 </div> `)
 $('.inputsValidation').on('keyup', function(){
-    $('#nameInput').on("keyup", () => {
+    $('#nameInput').on("input", () => {
         if(nameValidation()){
             $('#nameAlert').addClass('d-none')
             $('#nameAlert').removeClass('d-block')
