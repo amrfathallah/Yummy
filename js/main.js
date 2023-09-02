@@ -368,6 +368,7 @@ $('.Contact-Us').on("click" , function(){
     $('#searchContainer').html('')
     $('#rowData').html( `<div class="contact min-vh-100 d-flex justify-content-center align-items-center">
     <div class="container w-75 text-center">
+    <h2 class="fs-2 mb-4">Sign Up</h2>
         <div class="row g-4">
             <div class="col-md-6">
                 <input id="nameInput"  type="text" class=" inputsValidation form-control" placeholder="Enter Your Name">
